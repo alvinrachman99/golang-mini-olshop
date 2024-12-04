@@ -1,0 +1,17 @@
+
+
+app:
+  name: mini-online-shop
+  port: ":4000"
+
+db:
+  host: localhost
+  port: 5432
+  name: golang-basic
+  user: postgres
+  password: admin
+  connection_pool:
+    max_idle_connection: 10
+    max_open_connection: 30
+    max_lifetime_connection: 60 #second
+    max_idletime_connection: 60 #second
